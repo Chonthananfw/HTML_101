@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid rgb(71, 71, 71);
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Shopping Cart</h1><br>
+    <div style="display: flex;">
+        <table style="width:80%; height: 100px;">
+            <tr>
+                <th>Items</th>
+                <th>Quantity</th>
+                <th>Price(THB)</th>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Toy name by Brand</h3>
+                    <h5>gender age</h5>
+                    <h5 style="color: tomato;">In Stock / Out of Stock</h5>
+                    <h4 style="color: blue;">Delete</h4>
+                </td>
+                <td><select name="Quantity" id="1">
+                        <option value="1">1</option>
+                    </select></td>
+                <td> 100.00 </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Toy name by Brand</h3>
+                    <h5>gender age</h5>
+                    <h5 style="color: tomato;">In Stock / Out of Stock</h5>
+                    <h4 style="color: blue;">Delete</h4>
+                </td>
+                <td><select name="Quantity" id="1">
+                        <option value="1">1</option>
+                    </select></td>
+                <td> 100.00 </td>
+            </tr>
+        </table>
+        <div style="margin-left: 20px;">
+            <p><b>Order Summary</b></p>
+            <p>Item(2): <span style="color: tomato;">200.00</span> THB</p>
+            <p>Shipping Fee : <span style="color: tomato;">150.00</span> THB</p>
+            <hr>
+            <p><b>Order Total : <span style="color: tomato;">200.00</span> THB</b></p>
+
+        </div>
+    </div>
+    <p>Shipping Method : Kerry Express</p>
+    <b>
+        <p>Select Payment Method</p>
+        <input type="radio">
+        <label> Credit or Debit Cards</label><br>
+        <input type="radio">
+        <label> Paypal</label><br>
+        <input type="radio">
+        <label> Line Pay</label>
+    </b><br>
+    <div style="text-align: end;">
+        <button style="margin-bottom: 10px;">Place your order</button>
+    </div>
+</body>
+
+</html>
